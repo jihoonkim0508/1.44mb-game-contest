@@ -1,0 +1,10 @@
+# MSVC-generated intermediates; build.bat recreates these.
+*.obj
+*.lib
+*.exp
+
+# Visual Studio local state.
+.vs/
+
+# Toolchain smoke-test output; final game executables stay tracked.
+toolchain_probe/hello.exe

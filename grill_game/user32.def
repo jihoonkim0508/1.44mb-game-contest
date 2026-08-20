@@ -1,0 +1,21 @@
+LIBRARY USER32
+EXPORTS
+RegisterClassW
+CreateWindowExW
+AdjustWindowRect
+ShowWindow
+GetMessageW
+TranslateMessage
+DispatchMessageW
+DefWindowProcW
+PostQuitMessage
+SetTimer
+InvalidateRect
+SetCapture
+ReleaseCapture
+LoadCursorW
+LoadIconW
+GetClientRect
+BeginPaint
+EndPaint
+FillRect

@@ -1,0 +1,18 @@
+LIBRARY GDI32
+EXPORTS
+CreateCompatibleDC
+CreateCompatibleBitmap
+SelectObject
+DeleteObject
+DeleteDC
+CreateSolidBrush
+CreatePen
+RoundRect
+MoveToEx
+LineTo
+Ellipse
+CreateFontW
+SetBkMode
+SetTextColor
+TextOutW
+BitBlt

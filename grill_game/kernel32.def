@@ -1,0 +1,7 @@
+LIBRARY KERNEL32
+EXPORTS
+QueryPerformanceCounter
+QueryPerformanceFrequency
+GetModuleHandleW
+GetCommandLineW
+ExitProcess
