@@ -3,6 +3,7 @@ EXPORTS
  BitBlt
  CreateCompatibleBitmap
  CreateCompatibleDC
+ CreateDIBitmap
  CreateFontW
  CreateSolidBrush
  DeleteDC
@@ -11,4 +12,6 @@ EXPORTS
  SelectObject
  SetBkMode
  SetTextColor
+ SetStretchBltMode
  StretchBlt
+ StretchDIBits

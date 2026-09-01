@@ -2,9 +2,18 @@
 *.obj
 *.lib
 *.exp
+dad_game_core.exe
 
 # Visual Studio local state.
 .vs/
 
+# Generated caches and local visual-workbench files.
+__pycache__/
+output/
+reference/
+
 # Toolchain smoke-test output; final game executables stay tracked.
 toolchain_probe/hello.exe
+
+# PF Stardust source is build-time-only; keep only the rendered glyph atlas.
+dad_game/.pfstardust.tmp.*

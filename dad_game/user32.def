@@ -1,5 +1,6 @@
 LIBRARY USER32.dll
 EXPORTS
+ AdjustWindowRectEx
  BeginPaint
  CreateWindowExW
  DefWindowProcW

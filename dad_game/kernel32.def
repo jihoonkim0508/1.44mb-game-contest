@@ -3,4 +3,9 @@ EXPORTS
  ExitProcess
  GetCommandLineW
  GetModuleHandleW
+ GetModuleFileNameW
  GetTickCount
+ CreateFileW
+ SetFilePointer
+ ReadFile
+ CloseHandle
