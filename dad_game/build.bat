@@ -13,4 +13,6 @@ if errorlevel 1 exit /b 1
 dad_game.exe --self-test
 if errorlevel 1 exit /b 1
 for %%F in (dad_game.exe) do if %%~zF GTR 1474560 exit /b 2
+powershell -NoProfile -Command "$n=[string][char]0xBAB0+[char]0xCEF4+[char]0xD558+[char]0xAE30+'.exe'; Move-Item -LiteralPath 'dad_game.exe' -Destination $n -Force"
+if errorlevel 1 exit /b 1
 exit /b 0

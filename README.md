@@ -5,7 +5,7 @@
 | 게임 | 실행 파일 | 현재 크기 | 핵심 조작 |
 |---|---|---:|---|
 | 집게는 내가 잡는다 | `grill_game/tongs.exe` | 9,216바이트 | 좌클릭 드래그, 우클릭 뒤집기, `R` 재시작 |
-| 아빠 온다 | `dad_game/dad_game.exe` | 1,283,626바이트 | `J` 게임, `K` 모니터, `Space` 침대, `F11` 전체화면 |
+| 몰컴하기 | `dad_game/몰컴하기.exe` | 1,283,626바이트 | `J` 게임, `K` 모니터, `Space` 침대, `F11` 전체화면 |
 
 ## 집게는 내가 잡는다
 
@@ -24,7 +24,7 @@ cmd /c build.bat
 ```powershell
 cd C:\Dev\1.44\dad_game
 cmd /c build.bat
-.\dad_game.exe
+.\몰컴하기.exe
 ```
 
 ## 검증
